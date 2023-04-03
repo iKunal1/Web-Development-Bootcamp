@@ -1,0 +1,97 @@
+<!--19. Tables 
+    20. Table Row and Cell
+    21. Merging Cells and Rows
+    22. Table and cell width -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h3>Table 01</h3>
+    <table border="1" width="100%"><!--Table Element-->
+        <tr><!--Table Row-->
+            <td>Row1</td><!--Table Data cell-->
+            <td>data1.1</td>
+            <td>data1.2</td>
+            <td>data1.3</td>
+            <td>data1.4</td>
+        </tr>
+        <tr>
+            <td>Row2</td>
+            <td>data2.1</td>
+            <td>data2.2</td>
+            <td>data2.3</td>
+            <td>data2.4</td>
+        </tr>
+        <tr>
+            <td>Row3</td>
+            <td>data3.1</td>
+            <td>data3.2</td>
+            <td>data3.3</td>
+            <td>data3.4</td>
+        </tr>
+    </table>
+
+    
+    <h3>Table 02</h3>
+    
+    <table border="1">
+        <tr>
+            <td colspan="3">1.1</td><!--Colspan Mergeing the colums.Here 3 Colums merged by 1 Cell -->
+        </tr>
+        <tr>
+            <td>2.1</td>
+            <td>2.2</td>
+            <td rowspan="2">2.3</td><!--Rowspan Mergeing the colums.Here 2 Rows merged by 1 Cell -->
+        </tr>
+        <tr>
+            <td>3.1</td>
+            <td>3.2</td>
+        </tr>
+    </table>
+    <h3>table 03</h3>
+    <table border="1" width="50%"><!--Here The width of the whole Table is 50% of the web page and the cells are equally share the space. -->
+        <tr>
+            <td width="20%">1.1</td><!--Here The width of the whole column is 20% of the Whole Table-->
+            <td>1.2</td>
+            <td>1.3</td>
+        </tr>
+        <tr>
+            <td>2.1</td>
+            <td>2.2</td>
+            <td>2.3</td>
+        </tr>
+        <tr>
+            <td>3.1</td>
+            <td>3.2</td>
+            <td>3.3</td>
+        </tr>
+    </table>
+
+    <h3>Table 04</h3>
+    <table border="1" width="50%">
+        <tr>
+            <th colspan="3">Table Header</th><!--Table Header : "th" is exactly same as "tr" but "th" is centered and Bold -->
+        </tr>
+        <tr>    
+            <td>1.1</td>
+            <td>1.2</td>
+            <td>1.3</td>
+        </tr>
+        <tr>
+            <!-- <th></th>Table Header -->
+            <td>2.1</td>
+            <td>2.2</td>
+            <td>2.3</td>
+        </tr>
+        <tr>
+            <!-- <th></th>Table Header -->
+            <td>3.1</td>
+            <td>3.2</td>
+            <td>3.3</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!-- 21.HTML Classes
+    22. HTML Id -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <!-- In this style tag the class "para" is defined in every Div element is used with a dot ".para" .para is defined  background-color as black, color of text is white, margin is  20 pixel, and padding is 20 pixel. we can use as many as classes in every and any elements. -->
+    <!-- Id is defined by the # sign and it is same as the class but it should be Unique for every element  -->
+    <style>
+        .para {
+            background-color: black;
+            color: white;
+            margin: 20px;
+            padding: 20px;
+        }
+        .uppercase{
+            text-transform: uppercase;
+        }
+        #idcolor{
+            color: red;
+        }
+        #idcolorblue{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="para">
+        <h3>Paragraph 01</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quam aspernatur omnis qui, soluta sapiente et, tempora, 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem aspernatur veniam corrupti blanditiis praesentium id esse ipsum, nulla at perferendis, impedit obcaecati. Voluptate amet ipsum aut ut. Perspiciatis, quidem.</p>
+    </div>
+    <div class="uppercase" >
+        <h3>Paragraph 02</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem aspernatur veniam corrupti blanditiis praesentium id esse ipsum, nulla at perferendis, impedit obcaecati. Voluptate amet ipsum aut ut. Perspiciatis, quidem.</p>
+    </div>
+    <div class="para uppercase"><!--We can use multiple class at a time-->
+        <h3>Paragraph 03</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem aspernatur veniam corrupti blanditiis praesentium id esse ipsum, nulla at perferendis, impedit obcaecati. Voluptate amet ipsum aut ut. Perspiciatis, quidem.</p>
+    </div>
+    <div id="idcolor" >
+        <h3>Paragraph 02</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem aspernatur veniam corrupti blanditiis GOLU praesentium id esse ipsum, nulla at perferendis, impedit obcaecati. Voluptate amet ipsum aut ut. Perspiciatis, quidem.</p>
+    </div>
+    <div class="para uppercase">
+        <h3>Paragraph 03</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem aspernatur veniam corrupti blanditiis praesentium id esse ipsum, nulla at perferendis, impedit obcaecati. Voluptate amet ipsum aut ut. Perspiciatis, quidem.</p>
+    </div>
+    <div class="uppercase" >
+        <h3>Paragraph 02</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem aspernatur veniam corrupti blanditiis praesentium id esse ipsum, nulla at perferendis, impedit obcaecati. Voluptate amet ipsum aut ut. Perspiciatis, quidem.</p>
+    </div>
+    <div class="para uppercase" id="idcolorblue">
+        <h3>Paragraph 03</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem aspernatur veniam corrupti blanditiis praesentium id esse ipsum, nulla at perferendis, impedit obcaecati. Voluptate amet ipsum aut ut. Perspiciatis, quidem.</p>
+    </div>
+</body>
+</html> 
