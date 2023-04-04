@@ -1,0 +1,16 @@
+css stands for cascading style sheets
+they come in the file extention of .css
+unlike .html files, we use .css
+
+html is the backbone of your website, but it's not so good looking.
+CSS let us create beautiful and modern looking websites.
+
+CSS doesnot control the functionality of the site.
+So if you want to click a button and have it do something , that will require Javascript.
+You should focus on learning Javascript AFTER Learning CSS.
+
+Lastly, CSS can be wrutten in 3 different ways:
+1.inline with the style HTML attribute
+2.Internal with the <style> element
+3.external with .css file
+we will tackle all these throughout the course.
