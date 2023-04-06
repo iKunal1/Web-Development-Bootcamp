@@ -1,0 +1,21 @@
+The HTML5 family includes the new tags and technologies such as CSS3, Geolocation, Web 
+storage, Web Workers, and Web Sockets. These technologies provide a more powerful upgrade 
+to the toolset, and result in more useful and sophisticated web pages.
+        HTML is a mark up language.and It's stand for Hyper Text Markup Language.
+New browsers add features based on consumer expectation and as part of the natural 
+evolution of technology. As web applications become more responsive, speedy, and able to 
+work with complex tasks such as image editing, mapping, spreadsheets, and video, users 
+expect this level of performance from all web applications. There are limitations with the 
+capabilities of current languages and the ease of implementing and adding these features. 
+HTML5 provides new tools and features to help make websites more useful and exciting.
+
+ HTML 101 
+ Basic Structure of Element 
+
+<element attribute="Some text in here " title="this is second Attribute here"> 
+    Some text in  here   
+</element>
+
+
+
+
