@@ -1,0 +1,41 @@
+<!-- every html element,class and id is a selector in css.
+    Class is denoted by dot "." in css and id is denoted by "#"-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Selectors</title>
+    <style>
+        /* h2 is a selector here */
+        h2 {
+            color: red;
+        }
+
+        .bluee {
+            color: blueviolet;
+            text-transform: uppercase;
+        }
+
+        #heading2 {
+            color: black;
+        }
+
+        .bg {
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="bg">This is Headiing</h2>
+    <p>This is paragraph</p>
+    <!-- we can use many class for a single element. Div has all the properties of both the classes ("blue","bg"). -->
+    <div class="bluee bg">this is Div</div>
+    <h2 id="heading2" class="bg">This is another Headiing</h2><!--id should be unique.-->
+    <p class="bluee">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus non modi repudiandae, fugit
+        doloribus quam. Nemo fugiat numquam maiores in aliquam alias fugit provident obcaecati tempora veritatis dolores
+        earum molestiae ipsa, pariatur atque repellendus dolore esse perferendis eius amet fuga illum voluptatum,
+        voluptatem dignissimos? Quos velit officia voluptatum voluptas architecto?</p>
+</body>
+
+</html>

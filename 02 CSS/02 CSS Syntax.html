@@ -1,0 +1,43 @@
+<!-- 
+    CSS Syntax in Style tag
+    1. Internal CSS
+    2. External CSS
+    3. Inline CSS
+
+    The best practice is to use always in external css in html 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS 101</title>
+
+    <style>
+        /* This is the comment in CSS open by /* and closed with  */
+        /*  1. Internal CSS
+            Here Whole "body" color and background-color is changed by the css in the "style" tag  */
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style>
+
+    <!-- 2. External CSS is the CSS code is written in the another file with the extention of .css and that file is linked to the html file for implentation. -->
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+<body>
+
+    <!--3. Inline CSS
+        Here Whole "H3" color and background is changed by the css in the "style" tag. -->
+    <h3 style="color: white; background-color: brown; " >CSS Syntax</h3>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia aliquid qui voluptatibus quasi iusto suscipit illum ipsam atque repudiandae, reiciendis ea aut numquam consequuntur optio asperiores molestiae laborum, modi velit expedita? Odio, optio velit obcaecati expedita dolorem tenetur sint delectus reprehenderit accusamus excepturi hic deserunt illo, eius cumque laudantium quod!</p>
+   
+    <!-- Priority of the CSS  Style :
+    1. Inline CSS (inside an HTML element)
+    2. Internal CSS and External CSS (in the head section)
+    3. Browser Default
+  
+         An Inline style has the highest priority, and will override external and internal styles and browser defaults. -->
+</body>
+</html>
