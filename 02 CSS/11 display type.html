@@ -1,0 +1,30 @@
+<!-- 
+    Three types of Display type:
+        1. Inline
+        2. Block
+        3. inline-block: It is used for both functionality of inline and block.and with this, we can use the width and height for the with of element.but width and height doesn't work with inline or block type.  
+    -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Display type</title>
+    <style>
+        h1,span{
+            display: inline;
+            border: 1px  solid red;
+        }
+        div{
+            display: inline-block;
+            border: 1px  solid red;
+            width: 400px;
+            height: 100px ;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is heading and it is block element</h1>But we can change it to inline by the use of css.
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet animi repellendus recusandae doloremque ipsum nisi ad odio, ducimus expedita aliquid quae distinctio qui repudiandae iure? Sit laboriosam deserunt maxime cum fugit molestias temporibus at perferendis omnis a quasi nemo ex necessitatibus perspiciatis dolorem, veniam natus culpa. Aperiam officia eius perspiciatis.</p>
+    <span>It is an inline element.</span>Lorem ipsum dolor sit amet.
+    <div>Lorem ipsum dolor sit amet consectetur.</div>Lorem ipsum dolor sit amet.
+</body>
+</html>
