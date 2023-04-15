@@ -1,0 +1,103 @@
+/* nav {
+    margin: 25px;
+    display: flex;
+    padding: 20px;
+    border: 1px solid red;
+    position: relative;
+}
+
+table ul li {
+    display: flex;
+    width:auto;
+} */
+
+#logo {
+    height: 40px;
+}
+
+body {
+    height: 125vh;
+    margin-top: 0px;
+    padding: 9px 0px 0px 0px;
+    background-size: cover;
+    font-family: sans-serif;
+    /* background-color: #000; */
+}
+
+nav {
+    border: 1px solid red;
+    /* position: fixed; */
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    /* box-shadow: 0 0 25px 0 black; */
+    background-color: #fff;
+    margin: 0px;
+    padding: 25px;
+}
+
+#rocketman {
+    margin-left: 10px;
+}
+
+nav * {
+    display: inline;
+    background-color: white;
+}
+
+
+ul li {
+    margin: 0px 0px 0px 0px;
+    /* text-align: right; */
+    /* align-items: left;
+    align-items: right; */
+}
+
+#main-img {
+    /* height: 600px; */
+    margin-top: 2px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid red;
+    background-image: url(image01.jpg);
+    width: 791px;
+    align-items: center;
+    /* opacity: 0.5; */
+    height: 400px;
+    background-size: cover;
+    padding: 150px 0px 0px 60px;
+}
+
+#contact-button {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    margin: 8px 20px 8px 0px;
+    padding: 8px 20px;
+    display: inline;
+}
+
+#msg {
+    align-items: center;
+    text-align: center;
+    margin: 10px 0px;
+}
+.p-imgbox{
+    display: inline;
+    height: 100px;
+    width: 100px; 
+    border: 1px solid red;
+}
+.imgbox {
+    background-size: cover;    
+    border: 1px solid red;
+    
+}
+.imgbox {
+    background-image: url(left.jpg);
+    height: 200px;
+
+    width: 200px;
+}
