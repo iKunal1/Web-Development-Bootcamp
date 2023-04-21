@@ -1,0 +1,24 @@
+<!-- Box Model is the most important thing in web development. Box Model is defines the height and width of the html element. box model is defined by the "box-sizing" and it set to "content-box" by default.and we can change it to "border-box" to fix its height and width even if. the content of the element is exceeds to the size,but it's size doesn't change at all.  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .box{
+            border: 1px solid red;
+            height: 300px;
+            width: 300px;
+            padding: 15px;
+            margin: 15px;
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
