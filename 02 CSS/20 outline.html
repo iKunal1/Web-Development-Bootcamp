@@ -1,0 +1,25 @@
+<!-- "outline" is borders around borders and we can make some space between the outline and the border by the use of "outline-offset"-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 5px solid red;
+            height: 300px;
+            width: 300px;
+            padding: 30px;
+            box-sizing: content-box;/*by default*/
+            outline: 5px solid black;
+            outline-offset: 10px;
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
