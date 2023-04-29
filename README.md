@@ -4,4 +4,3 @@
 03 javascript
 04 python
 05 web development
-06
